@@ -30,6 +30,7 @@ function Counter() {
         <div>
             <section>
                 <div className="box">
+                    <h1>Uncle_Philxi Calculator</h1>
                     <button onClick={incNum}>+</button>
                     <input value={num} onChange={handleChange} />
                     <button onClick={decNum}>-</button>
